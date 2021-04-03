@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+		<listener class-name="com.restAssuredTestng.utilities.MyListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.restAssuredTestng.testCases.TC002_getOneEmployeeTest"/>
+      <class name="com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest"/>
+      <class name="com.restAssuredTestng.testCases.TC005_updateEmployeeTest"/>
+      <class name="com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest"/>
+      <class name="com.restAssuredTestng.testCases.TC001_getAllEmployeesTest"/>
+      <class name="com.restAssuredTestng.testCases.TC003_createEmployeeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

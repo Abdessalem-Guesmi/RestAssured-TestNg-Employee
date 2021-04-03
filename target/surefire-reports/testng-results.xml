@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="37" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66906" started-at="2021-04-03T20:00:01Z" finished-at="2021-04-03T20:01:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="66906" started-at="2021-04-03T20:00:01Z" finished-at="2021-04-03T20:01:08Z">
+      <class name="com.restAssuredTestng.testCases.TC005_updateEmployeeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restAssuredTestng.testCases.TC005_updateEmployeeTest@6d2a209c]" name="setUp" is-config="true" duration-ms="4" started-at="2021-04-03T20:00:50Z" finished-at="2021-04-03T20:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addnewEmployee()[pri:0, instance:com.restAssuredTestng.testCases.TC005_updateEmployeeTest@6d2a209c]" name="addnewEmployee" is-config="true" duration-ms="8140" started-at="2021-04-03T20:00:50Z" finished-at="2021-04-03T20:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewEmployee -->
+        <test-method status="PASS" signature="checkAge()[pri:0, instance:com.restAssuredTestng.testCases.TC005_updateEmployeeTest@6d2a209c]" name="checkAge" duration-ms="0" started-at="2021-04-03T20:00:58Z" finished-at="2021-04-03T20:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAge -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.restAssuredTestng.testCases.TC005_updateEmployeeTest@6d2a209c]" name="checkContentType" duration-ms="0" started-at="2021-04-03T20:00:58Z" finished-at="2021-04-03T20:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkName()[pri:0, instance:com.restAssuredTestng.testCases.TC005_updateEmployeeTest@6d2a209c]" name="checkName" duration-ms="0" started-at="2021-04-03T20:00:58Z" finished-at="2021-04-03T20:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkName -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.restAssuredTestng.testCases.TC005_updateEmployeeTest@6d2a209c]" name="checkStatusCode" duration-ms="0" started-at="2021-04-03T20:00:58Z" finished-at="2021-04-03T20:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkSalary()[pri:0, instance:com.restAssuredTestng.testCases.TC005_updateEmployeeTest@6d2a209c]" name="checkSalary" duration-ms="0" started-at="2021-04-03T20:00:58Z" finished-at="2021-04-03T20:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSalary -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.restAssuredTestng.testCases.TC005_updateEmployeeTest@6d2a209c]" name="checkStatusLine" duration-ms="0" started-at="2021-04-03T20:00:58Z" finished-at="2021-04-03T20:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkTime()[pri:0, instance:com.restAssuredTestng.testCases.TC005_updateEmployeeTest@6d2a209c]" name="checkTime" duration-ms="0" started-at="2021-04-03T20:00:58Z" finished-at="2021-04-03T20:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTime -->
+      </class> <!-- com.restAssuredTestng.testCases.TC005_updateEmployeeTest -->
+      <class name="com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest@75329a49]" name="setUp" is-config="true" duration-ms="4" started-at="2021-04-03T20:00:58Z" finished-at="2021-04-03T20:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getOneEmployee()[pri:0, instance:com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest@75329a49]" name="getOneEmployee" is-config="true" duration-ms="2897" started-at="2021-04-03T20:00:58Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneEmployee -->
+        <test-method status="PASS" signature="checkBody()[pri:0, instance:com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest@75329a49]" name="checkBody" duration-ms="1" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBody -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest@75329a49]" name="checkServer" duration-ms="1" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest@75329a49]" name="checkStatusCode" duration-ms="0" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest@75329a49]" name="checkStatusLine" duration-ms="0" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkTime()[pri:0, instance:com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest@75329a49]" name="checkTime" duration-ms="1" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTime -->
+      </class> <!-- com.restAssuredTestng.testCases.TC006_deleteOneEmployeeTest -->
+      <class name="com.restAssuredTestng.testCases.TC001_getAllEmployeesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restAssuredTestng.testCases.TC001_getAllEmployeesTest@161479c6]" name="setUp" is-config="true" duration-ms="3" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.restAssuredTestng.testCases.TC001_getAllEmployeesTest@161479c6]" name="getAllEmployees" is-config="true" duration-ms="295" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.restAssuredTestng.testCases.TC001_getAllEmployeesTest@161479c6]" name="checkContentType" duration-ms="0" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.restAssuredTestng.testCases.TC001_getAllEmployeesTest@161479c6]" name="checkServer" duration-ms="1" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.restAssuredTestng.testCases.TC001_getAllEmployeesTest@161479c6]" name="checkStatusLine" duration-ms="0" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.restAssuredTestng.testCases.TC001_getAllEmployeesTest@161479c6]" name="checkStatusCode" duration-ms="0" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkTime()[pri:0, instance:com.restAssuredTestng.testCases.TC001_getAllEmployeesTest@161479c6]" name="checkTime" duration-ms="0" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTime -->
+      </class> <!-- com.restAssuredTestng.testCases.TC001_getAllEmployeesTest -->
+      <class name="com.restAssuredTestng.testCases.TC002_getOneEmployeeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restAssuredTestng.testCases.TC002_getOneEmployeeTest@6ac13091]" name="setUp" is-config="true" duration-ms="802" started-at="2021-04-03T20:00:01Z" finished-at="2021-04-03T20:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getOneEmployee()[pri:0, instance:com.restAssuredTestng.testCases.TC002_getOneEmployeeTest@6ac13091]" name="getOneEmployee" is-config="true" duration-ms="5102" started-at="2021-04-03T20:00:02Z" finished-at="2021-04-03T20:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneEmployee -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.restAssuredTestng.testCases.TC002_getOneEmployeeTest@6ac13091]" name="checkContentType" duration-ms="6" started-at="2021-04-03T20:00:07Z" finished-at="2021-04-03T20:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkName()[pri:0, instance:com.restAssuredTestng.testCases.TC002_getOneEmployeeTest@6ac13091]" name="checkName" duration-ms="0" started-at="2021-04-03T20:00:07Z" finished-at="2021-04-03T20:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkName -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.restAssuredTestng.testCases.TC002_getOneEmployeeTest@6ac13091]" name="checkServer" duration-ms="0" started-at="2021-04-03T20:00:07Z" finished-at="2021-04-03T20:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.restAssuredTestng.testCases.TC002_getOneEmployeeTest@6ac13091]" name="checkStatusCode" duration-ms="0" started-at="2021-04-03T20:00:07Z" finished-at="2021-04-03T20:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.restAssuredTestng.testCases.TC002_getOneEmployeeTest@6ac13091]" name="checkStatusLine" duration-ms="0" started-at="2021-04-03T20:00:07Z" finished-at="2021-04-03T20:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkTime()[pri:0, instance:com.restAssuredTestng.testCases.TC002_getOneEmployeeTest@6ac13091]" name="checkTime" duration-ms="0" started-at="2021-04-03T20:00:07Z" finished-at="2021-04-03T20:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTime -->
+      </class> <!-- com.restAssuredTestng.testCases.TC002_getOneEmployeeTest -->
+      <class name="com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest@5e316c74]" name="setUp" is-config="true" duration-ms="6" started-at="2021-04-03T20:00:07Z" finished-at="2021-04-03T20:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewEmployees(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest@5e316c74]" name="addNewEmployees" duration-ms="7806" started-at="2021-04-03T20:00:08Z" data-provider="addEmploy" finished-at="2021-04-03T20:00:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[employ1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployees -->
+        <test-method status="PASS" signature="addNewEmployees(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest@5e316c74]" name="addNewEmployees" duration-ms="5976" started-at="2021-04-03T20:00:16Z" data-provider="addEmploy" finished-at="2021-04-03T20:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[employ2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployees -->
+        <test-method status="PASS" signature="addNewEmployees(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest@5e316c74]" name="addNewEmployees" duration-ms="5839" started-at="2021-04-03T20:00:22Z" data-provider="addEmploy" finished-at="2021-04-03T20:00:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[employ3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3050]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployees -->
+        <test-method status="FAIL" signature="addNewEmployees(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest@5e316c74]" name="addNewEmployees" duration-ms="8189" started-at="2021-04-03T20:00:28Z" data-provider="addEmploy" finished-at="2021-04-03T20:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[employ4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5700]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [429] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [429] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest.addNewEmployees(TC004_DDT_createEmployeeTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployees -->
+        <test-method status="PASS" signature="addNewEmployees(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest@5e316c74]" name="addNewEmployees" duration-ms="8069" started-at="2021-04-03T20:00:36Z" data-provider="addEmploy" finished-at="2021-04-03T20:00:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[employ5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployees -->
+        <test-method status="FAIL" signature="addNewEmployees(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest@5e316c74]" name="addNewEmployees" duration-ms="5877" started-at="2021-04-03T20:00:44Z" data-provider="addEmploy" finished-at="2021-04-03T20:00:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[employ6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [500] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [500] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest.addNewEmployees(TC004_DDT_createEmployeeTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployees -->
+      </class> <!-- com.restAssuredTestng.testCases.TC004_DDT_createEmployeeTest -->
+      <class name="com.restAssuredTestng.testCases.TC003_createEmployeeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="setUp" is-config="true" duration-ms="5" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addnewEmployee()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="addnewEmployee" is-config="true" duration-ms="6603" started-at="2021-04-03T20:01:01Z" finished-at="2021-04-03T20:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewEmployee -->
+        <test-method status="PASS" signature="checkAge()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="checkAge" duration-ms="0" started-at="2021-04-03T20:01:08Z" finished-at="2021-04-03T20:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAge -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="checkContentType" duration-ms="0" started-at="2021-04-03T20:01:08Z" finished-at="2021-04-03T20:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkName()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="checkName" duration-ms="0" started-at="2021-04-03T20:01:08Z" finished-at="2021-04-03T20:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkName -->
+        <test-method status="PASS" signature="checkSalary()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="checkSalary" duration-ms="0" started-at="2021-04-03T20:01:08Z" finished-at="2021-04-03T20:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSalary -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="checkServer" duration-ms="0" started-at="2021-04-03T20:01:08Z" finished-at="2021-04-03T20:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="checkStatusCode" duration-ms="1" started-at="2021-04-03T20:01:08Z" finished-at="2021-04-03T20:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="checkStatusLine" duration-ms="0" started-at="2021-04-03T20:01:08Z" finished-at="2021-04-03T20:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkTime()[pri:0, instance:com.restAssuredTestng.testCases.TC003_createEmployeeTest@4313f5bc]" name="checkTime" duration-ms="0" started-at="2021-04-03T20:01:08Z" finished-at="2021-04-03T20:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTime -->
+      </class> <!-- com.restAssuredTestng.testCases.TC003_createEmployeeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
