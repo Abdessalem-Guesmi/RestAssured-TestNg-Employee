@@ -14,7 +14,7 @@ public class TC006_deleteOneEmployeeTest extends BaseTest {
 
 	@BeforeClass
 	public void getOneEmployee() {
-		response = requestHttp.request(Method.DELETE, "/delete/" + emplID);
+		response = requestHttp.request(Method.DELETE, "/delete/" + readconfig.getEmployID());
 		System.out.println(response.getContentType());
 		System.out.println(response.getTime());
 		System.out.println(response.getStatusLine());

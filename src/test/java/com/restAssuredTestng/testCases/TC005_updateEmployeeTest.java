@@ -27,7 +27,7 @@ public class TC005_updateEmployeeTest extends BaseTest {
 		requestHttp.header("content-Type", "application/json");
 		requestHttp.body(employee);
 
-		response = requestHttp.request(Method.PUT, "/update/" + emplID);
+		response = requestHttp.request(Method.PUT, "/update/" + readconfig.getEmployID());
 		Thread.sleep(5000);
 		nameEmployee = response.getBody().asString();
 		System.out.println(response.getContentType());
